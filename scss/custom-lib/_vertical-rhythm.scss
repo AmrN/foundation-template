@@ -21,6 +21,17 @@ $ws-2-lg  : 4;
 $ws-3-lg  : 5;
 $ws-4-lg  : 6;
 
+// font-size variables (to be used with adjust-font-size)
+$fz-4-sm: 10px;
+$fz-3-sm: 12px;
+$fz-2-sm: 16px;
+$fz-1-sm: 20px;
+$fz-md:   26px;
+$fz-1-lg: 32px;
+$fz-2-lg: 42px;
+$fz-3-lg: 52px;
+$fz-4-lg: 68px;
+$fz-body: 16px;
 
 // adjust some font-sizes and line-heights created by foundation
 $h1-font-size: $fz-2-lg;
