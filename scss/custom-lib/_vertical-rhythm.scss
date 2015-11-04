@@ -1,0 +1,66 @@
+// Compass Vertical Rhythm Settings
+$base-font-size: 16px; // Sets the base font size
+$base-line-height: 24px; // Sets the base line height
+
+$round-to-nearest-half-line: true; // Allows compass to round to  multiples of 0.5x line height
+$rhythm-unit: "rem"; // Sets rhythm unit to rem.
+
+@import "compass";
+
+// Establishes baseline with Compass.
+@include establish-baseline;
+
+
+// white space variables to be used with trailer, leader and rhythm
+$ws-3-sm  : 0.5;
+$ws-2-sm  : 1;
+$ws-1-sm  : 1.5;
+$ws-md    : 2;
+$ws-1-lg  : 3;
+$ws-2-lg  : 4;
+$ws-3-lg  : 5;
+$ws-4-lg  : 6;
+
+
+// adjust some font-sizes and line-heights created by foundation
+$h1-font-size: $fz-2-lg;
+$h2-font-size: $fz-1-lg;
+$h3-font-size: $fz-md;
+$h4-font-size: $fz-1-sm;
+$h5-font-size: $fz-2-sm;
+$h6-font-size: $fz-3-sm;
+
+p {
+  @include fz($fz-body);
+  margin: 0;
+}
+
+h1 {
+  @include fz($h1-font-size);
+  margin: 0;
+}
+
+h2 {
+  @include fz($h2-font-size);
+  margin: 0;
+}
+
+h3 {
+  @include fz($h3-font-size);
+  margin: 0;
+}
+
+h4 {
+  @include fz($h4-font-size);
+  margin: 0;
+}
+
+h5 {
+  @include fz($h5-font-size);
+  margin: 0;
+}
+
+h6 {
+  @include fz($h6-font-size);
+  margin: 0;
+}
